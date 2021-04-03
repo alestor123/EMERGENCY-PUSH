@@ -5,6 +5,6 @@ execSync(`git add . && git commit -m ' ${msg||'Emergency Push'} ' && git push -u
 }
 catch(err){
 console.log('We Got A Problem')
-console.log(err) 
+console.log(err.stderr) 
 }
 }
