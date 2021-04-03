@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "This is a simple code for emergency push in case of fire git add . git commit git push and exit ",
   "main": "App.js",
+  "bin": {
+    "epush":"cli.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
