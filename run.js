@@ -1,2 +1,2 @@
 var test = require('./App');
-test()
+console.log(test())
